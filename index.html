@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- JavaScript -->
+  <script defer src="./js/main.js"></script>
+  <!-- JS For includeHTML-->
+  <script src="./js/include.js"></script>
+  <!-- Included head contents -->
+  <head-contents include-html="./html/head.html"></head-contents>
+</head>
+
+<body>
+
+
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+
+
+      <a href="/" class="logo">
+        <img src="./images/starbucks_logo.png" alt="STARBUCKS">
+      </a>
+    
+
+      <div class="sub-menu">
+        <sum-menu-contents include-html="./html/sub_menu.html"></sum-menu-contents>
+
+        <div class="search">
+          <input type="text" />
+          <div class="material-icons">search</div>
+        </div>
+      </div>
+      
+      <!-- MAIN MENU -->
+      <main-menu-contents include-html="./html/main_menu.html"></main-menu-contents>
+
+    </div>
+  </header>
+
+  
+</body>
+
+<script>
+  includeHTML();
+</script>
+
+</html>
