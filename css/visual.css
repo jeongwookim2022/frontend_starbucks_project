@@ -1,0 +1,50 @@
+@import url("./main.css");
+@import url("./header.css");
+
+/* VISUAL */
+.visual {
+  margin-top: 120px; /* same m-t in header > .inner*/
+  background-image: url("/images/visual_bg.jpg");
+  background-position: center;
+}
+.visual .inner {
+  height: 646px;
+}
+.visual .title {
+  position: absolute;
+  top: 88px;
+  left: -10px;
+}
+.visual .title .btn{
+  position: absolute;
+  top: 259px;
+  left: 173px;
+}
+.visual .cup1.image {
+  position: absolute;
+  bottom: 0;
+  right: -47px;
+}
+.visual .cup1.text {
+  position: absolute;
+  top: 38px;
+  right: 171px;
+}
+.visual .cup2.image {
+  position: absolute;
+  bottom: 0px;
+  right: 162px;
+}
+.visual .cup2.text {
+  position: absolute;
+  top: 300px;
+  right: 408px;
+}
+.visual .spoon {
+  position: absolute;
+  bottom: 0;
+  right: 408px;
+}
+.visual .fade-in {
+  opacity: 0;
+}
