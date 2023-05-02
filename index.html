@@ -3,9 +3,12 @@
 
 <head>
   <!-- JavaScript & JS LIBRARIES -->
+  <script defer src="./js/main.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script defer src="./js/main.js"></script>
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  
   <!-- JS For includeHTML-->
   <script src="./js/include.js"></script>
   <!-- Head contents -->
@@ -63,10 +66,53 @@
       <div class="fade-in">
         <img src="./images/visual_spoon.png" alt="spoon" class="spoon">
       </div>
-      
+
     </div>
   </section>
-  
+
+  <!-- SECTION -->
+  <section class="notice">
+    <div class="notice-line">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="inner">
+
+        <div class="inner__left">
+          <h2>Notice</h2>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">notice 1</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">notice 2</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">notice 3</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">notice 4</a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="notice-line__more">
+            <div class="material-icons">add_circle</div>
+          </a>
+        </div>
+
+        <div class="inner__right">
+          <h2>Starbucks Promotion</h2>
+          <div class="toggle-promotion">
+            <div class="material-icons">upload</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
 </body>
 
 <script>
