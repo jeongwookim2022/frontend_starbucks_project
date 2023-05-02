@@ -3,6 +3,7 @@
 
 <head>
   <!-- JavaScript & JS LIBRARIES -->
+  <script defer src="./js/youtube_iframe_api.js"></script>
   <script defer src="./js/main.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -47,7 +48,7 @@
     
   </header>
 
-  <!-- VISUAL -->
+  <!-- SECTION: VISUAL -->
   <section class="visual">
     <div class="inner">
 
@@ -70,7 +71,7 @@
     </div>
   </section>
 
-  <!-- SECTION -->
+  <!-- SECTION: NOTICE & PROMOTION -->
   <section class="notice">
     <div class="notice-line">
       <div class="bg-left"></div>
@@ -144,11 +145,40 @@
       </div>
     </div>
 
+  </section>
 
+  <!-- SECTION: YOUTUBE REWARDS -->
+  <section class="rewards">
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+    <div class="inner">
+      <div class="btn-group">
+        <div class="btn btn--reverse sign-up">Sign Up</div>
+        <div class="btn sign-in">Sign In</div>
+        <div class="btn gift">Give e-Gifts</div>
+      </div>
+      
+    </div>
   </section>
 
 
+  <!-- YOUTUBE VIDEO -->
+  <section class="youtube">
+    <div class="youtube__area">
+      <div id="player"></div>
+    </div>
+    <div class="youtube__cover"></div>
+    <div class="inner">
+
+      <img src="./images/floating1.png" alt="floating1" class="floating floating1">
+      <img src="./images/floating2.png" alt="floating2" class="floating floating2">
+      <img src="./images/floating3.png" alt="floating3" class="floating floating3">
+
+    </div>
+  </section>
+
 </body>
+
 
 <script>
   includeHTML();
