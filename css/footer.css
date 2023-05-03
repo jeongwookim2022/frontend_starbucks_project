@@ -1,0 +1,81 @@
+
+
+footer {
+  background-color: #272727;
+  border-top: 1px solid #333;
+}
+footer .inner.inner1 {
+  padding: 0 0 20px 0;
+  box-sizing: border-box;
+}
+footer .inner.inner2 {
+  padding: 0 0 30px 0;
+  box-sizing: border-box;
+}
+footer .menu {
+  display: flex;
+  justify-content: center;
+}
+footer .menu li {
+  position: relative;
+}
+footer .menu li::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #555;
+  position: absolute; /* inline -> block */
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: -1px;
+}
+footer .menu li:last-child::before {
+  display: none;
+}
+footer .menu li a {
+  color: #ccc;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px;
+  display: block;
+}
+footer .menu li a.green {
+  color: #669900;
+}
+footer .btn-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .btn-group .btn {
+  font-size: 12px;
+  margin-right: 10px;
+  width: 150px;
+}
+footer .btn-group .btn:last-child {
+  margin-right: 0;
+}
+footer .info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer .info span {
+ margin-right: 20px;
+ color: #999;
+ font-size: 12px;
+}
+footer .info span:last-child {
+  margin-right: 0;
+}
+footer .copyright {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+footer .logo {
+  margin: 20px auto 0;
+}

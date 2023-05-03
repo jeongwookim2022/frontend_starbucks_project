@@ -99,3 +99,7 @@ promotionToggleBtn.addEventListener('click', function () {
     promotionEl.classList.remove('hide');
   }
 });
+
+// FOOTER YEAR AUTO
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();
