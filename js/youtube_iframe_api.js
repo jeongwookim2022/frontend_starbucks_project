@@ -24,7 +24,7 @@ function onYouTubeIframeAPIReady() {
 }
 
 
-// RANDOM # GENERATOR FUNCTION
+// RANDOM NUM GENERATOR FUNCTION
 function random(min, max) {
   // `.toFixed()`를 통해 반환된 문자 데이터를,
   // `parseFloat()`을 통해 소수점을 가지는 숫자 데이터로 변환
