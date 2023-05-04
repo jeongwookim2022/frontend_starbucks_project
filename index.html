@@ -6,13 +6,12 @@
   <script defer src="./js/scrollMagic.js"></script>
   <script defer src="./js/youtube_iframe_api.js"></script>
   <script defer src="./js/main.js"></script>
-
   <!-- JS LIBRARIES -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js" integrity="sha512-WFeBxQtM/n6U8/Nd0Hz/Hq7n75NImbzM7Kc0y/4kE0kHnH1Be+nzm32RwbGoDsW1D9fjjPvI8LIWxLrZhxew/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- JS For includeHTML-->
   <script src="./js/include.js"></script>
   <!-- Head contents -->
@@ -168,19 +167,14 @@
     </div>
   </section>
 
-
   <!-- SEASON PRODUCT -->
   <section include-html="./html/season_product.html" class="scroll-spy"></section>
-
   <!-- RESERVE COFFEE -->
   <section include-html="./html/reserve_coffee.html" class="scroll-spy"></section>
-
   <!-- PICK YOUR FAVOURITE -->
   <section include-html="./html/pick_favourite.html" class="scroll-spy"></section>
-
   <!-- RESERVE STORE -->
   <contents include-html="./html/reserve_store.html"></contents>
-
   <!-- FIND THE STORE -->
   <section include-html="./html/find_store.html" class="find-store scroll-spy"></section>
 
@@ -231,7 +225,7 @@
 
     </div>
   </section>
-
+  
   <!-- FOOTER -->
   <footer>
     <footer-contents include-html="./html/footer.html"></footer-contents>
@@ -242,6 +236,10 @@
       <img src="./images/starbucks_logo_only_text.png" alt="" class="logo">
     </div>
   </footer>
+  <!-- TO-TOP BUTTON -->
+  <div id="to-top">
+    <div class="material-icons">arrow_upward</div>
+  </div>
 
 
 </body>

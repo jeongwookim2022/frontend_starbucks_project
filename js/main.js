@@ -17,27 +17,42 @@ searchInputEl.addEventListener('blur', function () {
 });
 
 
-// LOGO
+// LOGO & To-Top Button
 const badgeEl = document.querySelector("header .badges");
+const toTopEl = document.querySelector('#to-top');
+
 // (1) _.throttle(function() {}, time ms);
 // (2) gsap.to(el, time, option);
 window.addEventListener('scroll', _.throttle(function () {
   if (window.scrollY > 500) {
-    // Hide badges
+    // 1. Hide badges
     // badgeEl.style.display= 'none';
     gsap.to(badgeEl, 0.6, {
       opacity: 0,
       display: 'none'
     });
+    // 1-1. Show To-Top Button.
+    gsap.to(toTopEl, 0.2, {
+      x: 0
+    });
   } else {
-    // Show badges
+    // 2. Show badges
     // badgeEl.style.display= 'block';
     gsap.to(badgeEl, 0.6, {
       opacity: 1,
       display: 'block'
-    })
+    });
+    // 2-2. Hide To-Top Button.
+    gsap.to(toTopEl, 0.2, {
+      x: 100
+    });
   }
 }, 300));
+toTopEl.addEventListener('click', function () {
+  gsap.to(window, 0.7, {
+    scrollTo: 0
+  });
+});
 
 
 // VISUAL SWIPER
