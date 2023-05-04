@@ -170,3 +170,10 @@
   background-color: #333;
   color: #fff;
 }
+
+.promotion .swiper-container .btn {
+  color: black;
+}
+.promotion .swiper-container .btn:hover {
+  color: #fff;
+}

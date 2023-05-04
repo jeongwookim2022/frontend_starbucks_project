@@ -30,6 +30,7 @@ position: relative;
   box-sizing: border-box;
   display: block; /*To prevent to now be shown by <a> or etc*/
   transition: .4s;
+  
 }
 .btn:hover {
   background-color: #333;
@@ -64,7 +65,7 @@ position: relative;
 }
 .btn.btn--white:hover {
   color: #333;
-  background-color: #D9AA8A;
+  background-color: #FFF;
 }
 .back-to-position {
   opacity: 0;
